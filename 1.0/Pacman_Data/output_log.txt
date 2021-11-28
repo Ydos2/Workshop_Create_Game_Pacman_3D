@@ -6,39 +6,63 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.493 seconds
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game\2\Pacman 3D\PacmanGame\1.0\Pacman_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.274 seconds
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Mathias\Desktop\Workshop_Create_Game_Pacman_3D\1.0\Pacman_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.219900 ms
+UnloadTime: 0.586300 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 9.611501 ms
+UnloadTime: 4.748100 ms
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 386.
-Total: 0.806000 ms (FindLiveObjects: 0.033700 ms CreateObjectMapping: 0.048300 ms MarkObjects: 0.319000 ms  DeleteObjects: 0.404000 ms)
+Total: 0.385200 ms (FindLiveObjects: 0.020700 ms CreateObjectMapping: 0.021300 ms MarkObjects: 0.176100 ms  DeleteObjects: 0.166400 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.338200 ms
+UnloadTime: 0.512000 ms
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2138.
-Total: 1.013000 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.107300 ms MarkObjects: 0.532500 ms  DeleteObjects: 0.211300 ms)
+Total: 0.437500 ms (FindLiveObjects: 0.075800 ms CreateObjectMapping: 0.044600 ms MarkObjects: 0.241500 ms  DeleteObjects: 0.075100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.012000 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 388.
+Total: 0.637900 ms (FindLiveObjects: 0.027900 ms CreateObjectMapping: 0.021600 ms MarkObjects: 0.280400 ms  DeleteObjects: 0.307000 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.554200 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 339.
+Total: 0.220100 ms (FindLiveObjects: 0.018100 ms CreateObjectMapping: 0.011200 ms MarkObjects: 0.149700 ms  DeleteObjects: 0.040300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.437600 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 388.
+Total: 0.254200 ms (FindLiveObjects: 0.019800 ms CreateObjectMapping: 0.013700 ms MarkObjects: 0.206600 ms  DeleteObjects: 0.013300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.611200 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 482.
+Total: 0.277600 ms (FindLiveObjects: 0.022800 ms CreateObjectMapping: 0.012500 ms MarkObjects: 0.171700 ms  DeleteObjects: 0.070000 ms)
 
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 126c -> priority: 1 
-  Thread -> id: 1248 -> priority: 1 
-  Thread -> id: 1230 -> priority: 1 
+  Thread -> id: 1e0c -> priority: 1 
+  Thread -> id: 2c0 -> priority: 1 
+  Thread -> id: 34e4 -> priority: 1 

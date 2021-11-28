@@ -70,16 +70,15 @@ public class PacmanController : MonoBehaviour {
             //
 
             //Trouver les Ghosts
-            GameObject[] Go;
-            Go = GameObject.FindGameObjectsWithTag("Ghost");
+            GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("Ghost");
 
-            foreach (GameObject G in Go)
+            foreach (GameObject obj in gameObjects)
             {
                 //Faire des effects graphiques sur les Ghosts
                 //
 
                 //Puis les passer en mode "run for your life !!"
-                G.GetComponent<AI>().ModeAttack = false;
+                obj.GetComponent<AI>().ModeAttack = false;
             }
             StartCoroutine(ModeAttackDelai());
         }
@@ -96,10 +95,10 @@ public class PacmanController : MonoBehaviour {
 
         //Trouver les Ghost, regarde en haut comment faire
 
-        foreach (GameObject G in Go)
+        foreach (GameObject obj in gameObjects)
         {
             //Remettre les effects a leurs état d'origine
-            //G.GetComponent<AI>().ModeAttack =;
+            //obj.GetComponent<AI>().ModeAttack =;
         }
     }
     void OnCollisionEnter(Collision Col)
@@ -110,8 +109,6 @@ public class PacmanController : MonoBehaviour {
             {
                 //Pacman passe un sale moment... Donc...
                 //GetComponent<AudioSource>().;
-
-                //Regarde si ta le temp les animations
                 //anim.SetTrigger("Dead");
                 
                 //Le controller se désactive
@@ -119,9 +116,9 @@ public class PacmanController : MonoBehaviour {
 
                 //Stop Agents
                 //Donc trouve les Ghost puis dis leur *************************************************
-                foreach (GameObject G in Go)
+                foreach (GameObject obj in gameObjects)
                 {
-                    G.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+                    obj.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                     //G.GetComponent<AI>().enabled = ;
                 }
 
@@ -131,12 +128,12 @@ public class PacmanController : MonoBehaviour {
             else
             {
                 //Les fantomes se font avaler
-                //L'amusement est TOTALE !
+                //L'amusement est la
 
                 //GetComponent<AudioSource>().;
                 //Col.gameObject.GetComponent<AI>().Depart = ;
 
-                //Repart au Depart... LOL des blagues...
+                //Repart au depart
                 Instantiate(Col.gameObject, GameObject.Find("SpawnEnemy").transform.position, Quaternion.identity);
                 Destroy(Col.gameObject);
             }
